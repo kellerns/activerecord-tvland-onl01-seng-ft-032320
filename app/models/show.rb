@@ -7,6 +7,4 @@ class Show < ActiveRecord::Base
       "#{char.actor.first_name} #{char.actor.last_name}"
     end
   end
-
-
 end
